@@ -11,7 +11,7 @@ use model::merge_abstraction::MergeAbstraction;
             assert_eq!(test_abstraction.line_count, 2);
         }
         #[test]
-        fn merge_trivial_empty() {
+        fn merge_trivial_basic() {
             // Base represents all aces of a deck of poker cards.
             // Imagine in alfa, we add the nine of spades.
             // Imagine in bravo, we simply remove the Ace of Diamonds.
