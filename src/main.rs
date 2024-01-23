@@ -1,3 +1,4 @@
+#![allow(dead_code, unused_imports)]
 mod model;
 use model::merge_abstraction::MergeAbstraction;
 #[cfg(test)]
@@ -11,5 +12,5 @@ use model::merge_abstraction::MergeAbstraction;
         }
     }
 fn main() {
-    println!("Hello, world!");
+    println!("Deck-Merge, from Riel-Foundation");
 }
