@@ -10,7 +10,7 @@ impl MergeAbstraction {
   fn construct(string: String, sorting: i64) -> MergeAbstraction {
     return MergeAbstraction {
       sorting: sorting,
-      lines: string. lines().map(|line: &str| line.to_string()).collect(),
+      lines: string.lines().map(|line: &str| line.to_string()).collect(),
       line_count: string.lines().count() as u32,
     }
   }
